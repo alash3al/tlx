@@ -1,6 +1,6 @@
 TLX
 ==========
-A simple TLS proxy terminator written in Go.
+A simple TLS proxy terminator written in Go. It uses the power of concurrency of the Go language to speed up the request itself, It creates an isloated light thread for reading and another of writing.
 
 How it works
 ============
